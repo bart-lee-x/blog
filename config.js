@@ -3,11 +3,11 @@
 module.exports = {
   url: 'https://tess.dev',
   title: 'TESS, Bart blog',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'Abnormal articles',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 6,
+  googleAnalyticsId: 'UA-135466470-1',
   menu: [
     {
       label: 'Articles',
@@ -25,14 +25,13 @@ module.exports = {
   author: {
     name: 'Bart',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Developer',
     contacts: {
-      email: '#',
+      email: 'bart@tess.dev',
       telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      twitter: '@elfinxx',
+      github: 'bart-lee-x',
+      kakaotalk: '#'
     }
   }
 };

@@ -47,8 +47,7 @@ export const Sidebar = (props) => (
                 telegram
                 github
                 email
-                rss
-                vkontakte
+                kakaotalk
               }
             }
           }
