@@ -1,13 +1,15 @@
 'use strict';
 
 module.exports = {
-  url: 'https://tess.dev',
-  title: 'TESS, Bart blog',
-  subtitle: 'Abnormal articles',
+  url: 'https://lumen.netlify.com',
+  pathPrefix: '/',
+  title: 'Blog by John Doe',
+  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 6,
-  googleAnalyticsId: 'UA-135466470-1',
+  postsPerPage: 4,
+  googleAnalyticsId: 'UA-73379983-2',
+  useKatex: false,
   menu: [
     {
       label: 'Articles',
@@ -23,15 +25,25 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Bart',
+    name: 'John Doe',
     photo: '/photo.jpg',
-    bio: 'Developer',
+    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
-      email: 'bart@tess.dev',
+      email: '',
+      facebook: '#',
       telegram: '#',
-      twitter: '@elfinxx',
-      github: 'bart-lee-x',
-      kakaotalk: '#'
+      twitter: '#',
+      github: '#',
+      rss: '',
+      vkontakte: '',
+      linkedin: '#',
+      instagram: '#',
+      line: '',
+      gitlab: '',
+      weibo: '',
+      codepen: '',
+      youtube: '',
+      soundcloud: '',
     }
   }
 };
